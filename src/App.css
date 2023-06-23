@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.container_products {
+  width: 600px;
+  border: 1px solid hsl(210, 79%, 46%);
+}
+
+.cart_product {
+  width: 500px;
+}
+
+.text_update {
+  position: relative;
+  background-color: hsl(103, 44%, 89%);
+  height: 50px;
+  margin-top: 50px;
+  width: 590px;
+}
+
+.text_update .text {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgb(115, 203, 97);
+}
+
+.productPrice {
+  width: 70px;
+  height: 30px;
+  margin-left: 280px;
+  border: none;
+  background-color: hsl(15, 100%, 60%);
+}
+
+.productQuantity {
+  width: 70px;
+  height: 30px;
+  margin-left: 280px;
+}
+
+.updateEdit {
+
+  color: rgb(24, 217, 240);
+  font-size: 12px;
+  line-height: 12px;
+  padding: 6px;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+
+.updateEdit:hover {
+  background: #1C6EA4;
+}
+
+.updateEdit:active {
+  background: #144E75;
+}
+
+.delete {
+
+  color: rgb(24, 217, 240);
+  font-size: 13px;
+  line-height: 12px;
+  padding: 6px;
+  border-radius: 12px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(to right, rgb(208, 36, 76) 0%, rgb(208, 36, 76) 0%, rgb(208, 36, 76) 0%);
+  border: 2px solid rgb(208, 36, 76);
+  display: inline-block;
+}
+
+.delete:hover {
+  background: #f1153d;
+}
+
+.delete:active {
+  background: #630811;
+}
+
+.productQuantityCart {
+  width: 50px;
+  height: 30px;
+}
